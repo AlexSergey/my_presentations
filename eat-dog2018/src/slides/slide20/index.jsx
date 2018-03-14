@@ -15,11 +15,7 @@ import {
 const _Slide = () => {
     return [
         <Image src={require('./logo.png')} key="img" />,
-        <Heading size={5} textColor="secondary" key="text1">
-            cleverbrush.com
-        </Heading>,
         <List key="list">
-            <ListItem>2 продукта: Editor, Collage</ListItem>
             <ListItem>итерация 1 - июнь, 2017 - 7 марта 2018</ListItem>
             <ListItem>JS/Node/C++</ListItem>
             <ListItem>51613 строк кода без node_modules</ListItem>

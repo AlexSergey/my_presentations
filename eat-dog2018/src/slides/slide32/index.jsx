@@ -29,8 +29,12 @@ const _Slide = () => {
                                         <Heading size={5} textColor="secondary" key="title">
                                             ПРИМЕРЫ И ССЫЛКИ
                                         </Heading>
-                                        <Link href="https://github.com/AlexSergey/eat-dog2018">https://github.com/AlexSergey/eat-dog2018</Link>
-                                        <Link href="https://github.com/AlexSergey/my_presentations">Presentation</Link>
+                                        <Text>
+                                            <Link href="https://github.com/AlexSergey/eat-dog2018">https://github.com/AlexSergey/eat-dog2018</Link>
+                                        </Text>
+                                        <Text>
+                                            <Link href="https://github.com/AlexSergey/my_presentations">Presentation</Link>
+                                        </Text>
                                     </TableItem>
                                 </TableRow>
                                 <TableRow>
