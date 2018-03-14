@@ -1,0 +1,9 @@
+this.socketManager.io.on(SOCKET_EVENTS.NOTIFICATION, notification => {
+    if (notification.status === 'error') {
+        logger.error(`socket|Error ${notification.message}`);
+        this.props.onAuthUpdate();
+    }
+    else {
+        this.props.onAddNotification(data);
+    }
+});

@@ -1,0 +1,9 @@
+this.stack.session.start = getCurrentDateISO();
+this.stack.actions = actions;
+this.stack.env.lang = lang;
+this.stack.env.href = href;
+this.stack.env.localization = getItem('localization');
+this.stack.env.theme = getItem('theme');
+this.stack.env.browser = getBrowser();
+this.stack.env.os = getOS();
+this.stack.env.userID = getItem('userID');

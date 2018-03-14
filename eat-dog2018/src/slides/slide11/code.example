@@ -1,0 +1,16 @@
+export default class CollectionWithLimit {
+    constructor(props) {
+        this.limit = props.limit || 20;
+        this.data = [];
+    }
+    checkLimit() {
+        if (this.data.length === this.limit) {
+            this.data.shift();
+            return true;
+        }
+    }
+    add(data) {
+        this.data.push(data);
+        return this.checkLimit();
+    }
+}

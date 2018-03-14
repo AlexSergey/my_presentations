@@ -1,0 +1,7 @@
+window.onerror = (errorMsg, url, lineNumber, lineCount, trace) => {
+...
+    // show BSOD
+    let bsod = BSOD(stackData);
+    document.body.appendChild(bsod);
+...
+};

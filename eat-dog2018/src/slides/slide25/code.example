@@ -1,0 +1,1 @@
+rest.defaults.headers.common.sessionId = global.__session_id__;

@@ -1,0 +1,11 @@
+window.onerror = (errorMsg, url, lineNumber, lineCount, trace) => {
+    // create critical error
+    let critical = {};
+    critical[CRITICAL] = serializeError(trace, lineNumber);
+    let criticalData = mixParams.call(this, critical, true);
+    this.stackCollection.add(criticalData);
+    // get stack data
+    let stackData = this.getStackData();
+    // send log to server
+    this.sendLogToServer(stackData);
+};

@@ -1,0 +1,18 @@
+rest.interceptors.request.use(
+    config => config,
+    error => {
+        if (error.message) {
+            logger.error(error.message);
+        }
+        return Promise.reject(error);
+    }
+);
+rest.interceptors.response.use(
+    response => response.data,
+    error => {
+        if (error.message) {
+            logger.error(error.message);
+        }
+        return Promise.reject(error);
+    }
+);
