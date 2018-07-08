@@ -1,0 +1,22 @@
+{
+  "name": "my-presentation",
+  "version": "0.1.0",
+  "dependencies": {
+    "prism-theme-one-dark": "^1.0.0",
+    "prismjs": "^1.11.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "spectacle-code-slide": "^0.5.2",
+    "spectacle-scripts": "2.0.0",
+    "spectacle-theme-nova": "^1.4.1"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development node build",
+    "build": "NODE_ENV=production node build"
+  },
+  "devDependencies": {
+    "raw-loader": "^0.5.1",
+    "rocket-starter": "git+https://github.com/AlexSergey/rocket-starter.git"
+  }
+}

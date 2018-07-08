@@ -40,14 +40,6 @@ const _Slide = () => {
                                 <TableRow>
                                     <TableItem>
                                         <Heading size={5} textColor="secondary" key="title">
-                                            Чат "Съесть собаку"
-                                        </Heading>
-                                        <Link href="https://join.skype.com/Ct9eTgsIFHfk">https://join.skype.com/Ct9eTgsIFHfk</Link>
-                                    </TableItem>
-                                </TableRow>
-                                <TableRow>
-                                    <TableItem>
-                                        <Heading size={5} textColor="secondary" key="title">
                                             КОНТАКТЫ
                                         </Heading>
                                         <Text>

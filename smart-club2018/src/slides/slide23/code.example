@@ -1,0 +1,6 @@
+let ast = babylon.parse(f, {
+    allowImportExportEverywhere: true,
+    allowSuperOutsideMethod: true,
+    allowReturnOutsideFunction: true,
+    plugins: ['jsx', 'estree', 'functionBind']
+});

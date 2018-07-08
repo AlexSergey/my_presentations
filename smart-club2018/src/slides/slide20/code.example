@@ -1,0 +1,9 @@
+class Localization extends Component {
+    componentDidMount() {
+        this.context.localizationObserver.registerComponent(this);
+    }
+
+    render() {
+        return <span dangerouslySetInnerHTML={{__html: this.props.children()}} />;
+    }
+}

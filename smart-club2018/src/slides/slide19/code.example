@@ -1,0 +1,16 @@
+class LocalizationObserver extends Component {
+    constructor(props) {
+        super(props);
+        this.components = new Set();
+    }
+    componentRegister = component => {
+        this.components.add(component);
+    }
+    changeLocal(){
+        ...
+        this.updateComponents();
+    }
+    updateComponents() {
+        this.components.forEach(component => component.forceUpdate());
+    }
+}
