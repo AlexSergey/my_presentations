@@ -9,7 +9,8 @@ import {
 
 const _Slide = () => {
     return <div>
-        <Heading size={6} fit caps lineHeight={1} textColor="fifth" key="head1">
+        <Image src={require('./img.jpg')} key="img" />
+        <Heading size={6} fit caps lineHeight={1} textColor="fifth" key="head1" margin="20px 0 0">
             ВСЕМ СПАСИБО!
             ВОПРОСЫ!
         </Heading>
