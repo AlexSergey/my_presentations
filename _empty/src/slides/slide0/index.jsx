@@ -7,9 +7,9 @@ import {
 } from 'spectacle';
 
 const _Slide = () => {
-    return [
+    return <>
         <h1>Hello!</h1>
-    ]
+    </>;
 };
 
 export default _Slide;
