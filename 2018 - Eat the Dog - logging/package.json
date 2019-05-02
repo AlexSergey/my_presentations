@@ -16,7 +16,7 @@
     "build": "NODE_ENV=production node build"
   },
   "devDependencies": {
-    "raw-loader": "^0.5.1",
-    "rocket-starter": "git+https://github.com/AlexSergey/rocket-starter.git"
+    "raw-loader": "2.0.0",
+    "rocket-starter": "1.0.0"
   }
 }

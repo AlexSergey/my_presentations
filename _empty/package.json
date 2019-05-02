@@ -17,6 +17,6 @@
   },
   "devDependencies": {
     "raw-loader": "2.0.0",
-    "rocket-starter": "git+https://github.com/AlexSergey/rocket-starter.git"
+    "rocket-starter": "1.0.0"
   }
 }
