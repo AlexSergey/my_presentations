@@ -18,6 +18,12 @@ const _Slide = () => {
         <Text margin="25px 0 0" textColor="tertiary" size={7} key="head2">
             Александров Сергей (github: AlexSergey)
         </Text>
+        <Text margin="25px 0 0" textColor="secondary" size={5} key="head2">
+            Co-Founder, CTO at <strong>Cleverbrush</strong>
+        </Text>
+        <Text margin="25px 0 0" textColor="secondary" size={5} key="head2">
+            <em>JS, Nodejs, Python, PHP...</em>
+        </Text>
     </>
 };
 

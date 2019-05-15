@@ -6234,7 +6234,7 @@ glob-to-regexp@^0.3.0:
   resolved "https://registry.yarnpkg.com/glob-to-regexp/-/glob-to-regexp-0.3.0.tgz#8c5a1494d2066c570cc3bfe4496175acc4d502ab"
   integrity sha1-jFoUlNIGbFcMw7/kSWF1rMTVAqs=
 
-glob@^7.0.0, glob@^7.0.3, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@~7.1.1:
+glob@7.1.3, glob@^7.0.0, glob@^7.0.3, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@~7.1.1:
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.3.tgz#3960832d3f1574108342dafd3a67b332c0969df1"
   integrity sha512-vcfuiIxogLV4DlGBHIUOwI0IbrJ8HWPc4MU7HzviGeNho/UJDfi6B5p3sHeWIQ0KGIU0Jpxi5ZHxemQfLkkAwQ==
@@ -12341,9 +12341,10 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-"rocket-starter@git+https://github.com/AlexSergey/rocket-starter.git":
+rocket-starter@1.0.0:
   version "1.0.0"
-  resolved "git+https://github.com/AlexSergey/rocket-starter.git#5935498964885549072a69640ac0af437593dcb2"
+  resolved "https://registry.yarnpkg.com/rocket-starter/-/rocket-starter-1.0.0.tgz#201261df3698486956afc26357d56008618397ec"
+  integrity sha512-bKGdpjhVPnlw5Hnj0ZANdtutEVfZJoX3GS66BlCEJBcmp1xKXJf+njBIw3JrQldapYDEPeqwPKCAudRd7w7tmA==
   dependencies:
     "@babel/core" "7.3.4"
     "@babel/plugin-proposal-class-properties" "7.3.4"
@@ -12382,6 +12383,7 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     find-free-port "2.0.0"
     flow-babel-webpack-plugin "1.1.1"
     get-port-sync "1.0.0"
+    glob "7.1.3"
     gutil "1.6.4"
     handlebars "4.1.0"
     handlebars-loader "1.7.1"
@@ -12420,6 +12422,7 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     terser "3.17.0"
     uglifyjs-webpack-plugin "2.1.2"
     url-loader "1.1.2"
+    valid-types "1.0.1"
     webpack "4.30.0"
     webpack-bundle-analyzer "3.3.2"
     webpack-dev-server "3.3.1"
@@ -14443,6 +14446,11 @@ uuid@^3.0.1, uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
+
+valid-types@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/valid-types/-/valid-types-1.0.1.tgz#1bca7b82bde1d1bb8d46159a51344fd9f109df40"
+  integrity sha512-5ZjNw0rcuwAzeXPIAk87vh/8s3nG3vKa7nZ4RMh2rqWp0Kp34UWsk3Ev6vBtVeeXNTL8mNqusLG+ncDM2pwlaQ==
 
 validate-npm-package-license@^3.0.1:
   version "3.0.4"

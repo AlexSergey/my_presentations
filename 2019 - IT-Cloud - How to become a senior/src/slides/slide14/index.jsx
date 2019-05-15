@@ -4,17 +4,17 @@ import {
     Heading,
     Slide,
     Text,
-    CodePane
 } from 'spectacle';
 
 const _Slide = () => {
-    return <div>
-        <Image src={require('./img.png')} key="img" />
-        <Heading size={6} fit caps lineHeight={1} textColor="fifth" key="head1" margin="20px 0 0">
-            ВСЕМ СПАСИБО!
-            ВОПРОСЫ!
+    return <>
+        <Heading size={1} fit caps lineHeight={1} textColor="secondary" key="head1">
+            Не зазнавайтесь!
         </Heading>
-    </div>
+        <Text>→ Если Вам дали должность "сеньйор", это еще не значит, что Вы есть Senior</Text>
+        <Text>→ Всегда есть к чему расти и к чему стремиться. Не останавливайтесь на достигнутом!</Text>
+        <Text><strong>Опыт опыту рознь: Бывает опыт 5 лет, а бывает опыт 1 год, повторенный 5 раз.</strong></Text>
+    </>
 };
 
 export default _Slide;

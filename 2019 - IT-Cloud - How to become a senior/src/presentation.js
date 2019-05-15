@@ -36,6 +36,7 @@ import Slide11 from './slides/slide11';
 import Slide12 from './slides/slide12';
 import Slide13 from './slides/slide13';
 import Slide14 from './slides/slide14';
+import Slide15 from './slides/slide15';
 
 export default class Presentation extends Component {
     render() {
@@ -90,6 +91,9 @@ export default class Presentation extends Component {
                 </Slide>
                 <Slide transition={['slide']} bgColor="#f5f5f5">
                     <Slide14 />
+                </Slide>
+                <Slide transition={['slide']} bgColor="#f5f5f5">
+                    <Slide15 />
                 </Slide>
             </Deck>
         );

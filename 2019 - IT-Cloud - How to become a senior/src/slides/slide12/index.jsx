@@ -9,11 +9,11 @@ import {
 const _Slide = () => {
     return <>
         <Heading size={1} fit caps lineHeight={1} textColor="secondary" key="head1">
-            Не стыдно что то не знать!
+            Чтобы не выгореть...
         </Heading>
-        <Text>→ Ставьте достигаемые цели, идите последовательно</Text>
-        <Text>→ Расширяйте кругозор, изучайте языки</Text>
-        <Text>→ Читайте книги</Text>
+        <Text>→ Найдите хобби</Text>
+        <Text>→ Тратьте заработанные Вами деньги</Text>
+        <Text>→ Путешествия</Text>
     </>
 };
 

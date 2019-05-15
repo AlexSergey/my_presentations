@@ -9,14 +9,11 @@ import {
 const _Slide = () => {
     return <>
         <Heading size={1} fit caps lineHeight={1} textColor="secondary" key="head1">
-            Работа в команде
+            Саморазвитие
         </Heading>
-        <Text>→ Будьте открытыми и приветливыми</Text>
-        <Text>→ Обосновуйте свои идеи</Text>
-        <Text>→ Если у вас проблема, сразу об этом говорите, каждый отложенный час может привести к большим затратам</Text>
-        <Text>→ Заказчик всегда прав</Text>
-        <Text>→ Будьте пунктуальны</Text>
-        <Text>→ Не бойтесь делегировать задачи</Text>
+        <Text>→ Конспект</Text>
+        <Image width={'50%'} src={require('./img.jpg')} key="title" />
+        <Text>→ Домашние проекты, github</Text>
     </>
 };
 
