@@ -16,6 +16,7 @@ const _Slide = () => {
             Жизнь без фреймверка
         </Heading>
         <Text>→ HTML Components</Text>
+        <Text>→ Сильная кастомизация</Text>
         <Text>→ В образовательных целях</Text>
     </>
 };

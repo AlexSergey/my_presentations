@@ -11,6 +11,7 @@ const _Slide = () => {
         <Heading size={1} fit caps lineHeight={1} textColor="secondary" key="head1">
             Паттерны
         </Heading>
+        <Text>→ Модуль</Text>
         <Text>→ Синглтон</Text>
         <Text>→ Фабрика</Text>
         <Text>→ Медиатор</Text>

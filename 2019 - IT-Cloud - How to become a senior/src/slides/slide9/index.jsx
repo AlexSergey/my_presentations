@@ -13,7 +13,8 @@ const _Slide = () => {
         </Heading>
         <Text>→ Конспект</Text>
         <Image width={'50%'} src={require('./img.jpg')} key="title" />
-        <Text>→ Домашние проекты, github</Text>
+        <Text>→ github</Text>
+        <Text>→ Домашние проекты</Text>
     </>
 };
 
