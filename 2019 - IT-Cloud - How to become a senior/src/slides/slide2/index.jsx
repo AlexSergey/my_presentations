@@ -9,11 +9,11 @@ import {
 const _Slide = () => {
     return <>
         <Heading size={1} fit caps lineHeight={1} textColor="secondary" key="head1">
-            Нужен ли фреймверк?
+            Нужен ли фреймворк?
         </Heading>
         <hr/>
         <Heading size={2} fit lineHeight={1} textColor="secondary" key="head2">
-            Что нам дает фреймверк?
+            Что он нам дает?
         </Heading>
         <Text>+ Легкость поддержки и развития продукта</Text>
         <Text>+ Готовые решения</Text>

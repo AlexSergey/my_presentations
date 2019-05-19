@@ -13,7 +13,7 @@ const _Slide = () => {
             <Logo />
         </div>
         <Heading size={1} fit caps lineHeight={1} textColor="secondary">
-            Путь "Сеньор"а
+            Путь "Сеньор`а"
         </Heading>
         <Text margin="25px 0 0" textColor="tertiary" size={7}>
             Александров Сергей (github: AlexSergey)

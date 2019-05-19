@@ -9,11 +9,11 @@ import {
 const _Slide = () => {
     return <>
         <Heading size={1} fit caps lineHeight={1} textColor="secondary" key="head1">
-            Нужен ли фреймверк?
+            Нужен ли фреймворк?
         </Heading>
         <hr/>
         <Heading size={2} fit lineHeight={1} textColor="secondary" key="head2">
-            Жизнь без фреймверка
+            Жизнь без фреймворка
         </Heading>
         <Text>→ HTML Components</Text>
         <Text>→ Сильная кастомизация</Text>

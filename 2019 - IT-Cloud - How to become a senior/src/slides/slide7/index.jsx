@@ -13,9 +13,8 @@ const _Slide = () => {
         </Heading>
         <Text>→ Модуль</Text>
         <Text>→ Синглтон</Text>
-        <Text>→ Фабрика</Text>
         <Text>→ Медиатор</Text>
-        <Text style={{textDecoration: 'line-through'}}>→ Банда 4-х</Text>
+        <Text style={{textDecoration: 'line-through'}}>→ Книга: "Банда 4-х"</Text>
     </>
 };
 
