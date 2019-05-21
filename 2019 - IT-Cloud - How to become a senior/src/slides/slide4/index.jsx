@@ -15,7 +15,7 @@ const _Slide = () => {
         <Heading size={2} fit lineHeight={1} textColor="secondary" key="head2">
             Жизнь без фреймворка
         </Heading>
-        <Text>→ HTML Components</Text>
+        <Text>→ Web Components</Text>
         <Text>→ Сильная кастомизация</Text>
         <Text>→ В образовательных целях</Text>
     </>
