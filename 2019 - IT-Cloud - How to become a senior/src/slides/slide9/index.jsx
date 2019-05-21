@@ -15,7 +15,6 @@ const _Slide = () => {
         <Image width={'50%'} src={require('./img.jpg')} key="title" />
         <Text>→ github</Text>
         <Text>→ Домашние проекты</Text>
-        <Text><strong>Эти факторы позволят Вам посмотреть на задачу под другим углом и многогранно развиваться</strong></Text>
     </>
 };
 
