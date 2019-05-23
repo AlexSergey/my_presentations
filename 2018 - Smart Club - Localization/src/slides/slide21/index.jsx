@@ -6,10 +6,11 @@ import {
     Text,
     CodePane
 } from 'spectacle';
+import codeExample1 from 'raw-loader!./code.example';
 
 const _Slide = () => {
     return <div>
-        <CodePane theme='dark' lang="javascript" source={require('raw-loader!./code.example')} />
+        <CodePane theme='dark' lang="javascript" source={codeExample1} />
     </div>
 };
 

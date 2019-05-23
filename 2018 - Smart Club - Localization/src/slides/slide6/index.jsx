@@ -6,6 +6,7 @@ import {
     Text,
     CodePane
 } from 'spectacle';
+import codeExample1 from 'raw-loader!./code.example';
 
 const _Slide = () => {
     return <div>
@@ -24,7 +25,7 @@ const _Slide = () => {
         <Text margin="10px 0 10px" textColor="tertiary" size={1} textAlign="left">
             - Так как обращение в компонентах к полю словаря идет через точку, если в версии перевода отсутствует поле, получим критический баг
         </Text>
-        <CodePane theme='dark' lang="javascript" margin="40px 0 0" source={require('raw-loader!./code.example')} />
+        <CodePane theme='dark' lang="javascript" margin="40px 0 0" source={codeExample1} />
     </div>
 };
 
