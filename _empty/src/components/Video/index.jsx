@@ -15,7 +15,8 @@ export default class Video extends Component {
                 style={{
                     width: this.props.width ? (typeof this.props.width === 'string' && this.props.width.indexOf('%') > 0 ? this.props.width : `${this.props.width}px`) : '100%',
                     height: this.props.width ? 'auto' : '100%',
-                    margin: this.props.center ? '0 auto' : '0'
+                    margin: this.props.center ? '0 auto' : (typeof this.props.margin === 'string' ? this.props.margin : '0'),
+                    display: 'inline-block'
                 }}
             >
                 <video
@@ -39,6 +40,8 @@ Video.defaultProps = {
 };
 Video.propTypes = {
     controls: PropTypes.bool,
+    margin: PropTypes.string,
+    center: PropTypes.bool,
     muted: PropTypes.bool,
     loop: PropTypes.bool,
     src: PropTypes.string.isRequired,

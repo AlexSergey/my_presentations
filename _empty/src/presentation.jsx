@@ -4,12 +4,13 @@ import {
     Deck,
     Slide
 } from 'spectacle';
-import createTheme from "spectacle/lib/themes/default";
+import { mergeTheme } from 'spectacle/lib/theme';
 import './assets/styles.scss';
 import 'prismjs';
 import 'prism-theme-one-dark/prism-onedark.css';
 import 'normalize.css';
-const theme = createTheme({
+
+const theme = mergeTheme({
     primary: "rgba(255, 255, 255, 0)",
     secondary: "#1F2022",
     tertiary: "#03A9FC",
